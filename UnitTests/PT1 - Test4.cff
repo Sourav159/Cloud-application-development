@@ -1,0 +1,179 @@
+// The default log file name.
+LOGFILE
+  DEFAULT="log-2021.txt"
+END-LOGFILE
+
+// Minimum and maximum limits on the number of
+// tasks, processors, processor frequencies, processor RAM, and
+// processor download and upload speeds.
+LIMITS
+  MINIMUM-TASKS=1
+  MAXIMUM-TASKS=100
+  MINIMUM-PROCESSORS=1
+  MAXIMUM-PROCESSORS=500
+  MINIMUM-PROCESSOR-FREQUENCIES=1.37
+  MAXIMUM-PROCESSOR-FREQUENCIES=10.0
+  MINIMUM-RAM=1
+  MAXIMUM-RAM=64
+  MINIMUM-DOWNLOAD=1
+  MAXIMUM-DOWNLOAD=1000
+  MINIMUM-UPLOAD=1
+  MAXIMUM-UPLOAD=1000
+END-LIMITS
+
+// Program related data: duration, the number of tasks, 
+// and the number of processors.
+PROGRAM
+  DURATION=3.0
+  TASKS=5
+  PROCESSORS=3
+END-PROGRAM
+
+
+// Task runtime values (seconds), and their RAM requirements (GB).
+// A task's runtimes is based on that task executing on
+// a processor that is running at the reference frequency (GHz).
+TASKS
+  TASK
+    ID=0
+    RUNTIME=1.0
+    REFERENCE-FREQUENCY=2.2
+    RAM=2
+    DOWNLOAD=100
+    UPLOAD=10
+  END-TASK
+  
+  TASK
+    ID=1
+    RUNTIME=1.0
+    REFERENCE-FREQUENCY=2.0
+    RAM=2
+    DOWNLOAD=120
+    UPLOAD=12
+  END-TASK
+  
+  TASK
+    ID=2
+    RUNTIME=2.0
+    REFERENCE-FREQUENCY=1.6
+    RAM=4
+    DOWNLOAD=150
+    UPLOAD=60
+  END-TASK
+  
+  TASK
+    ID=3
+    RUNTIME=1.0
+    REFERENCE-FREQUENCY=2.0
+    RAM=2
+    DOWNLOAD=220
+    UPLOAD=20
+  END-TASK
+  
+  TASK
+    ID=4
+    RUNTIME=3.0
+    REFERENCE-FREQUENCY=2.5
+    RAM=8
+    DOWNLOAD=330
+    UPLOAD=30
+  END-TASK
+END-TASKS
+
+// Processor types and their frequency values, RAM,
+// download speed, and upload speed.
+PROCESSORS
+  PROCESSOR
+    ID=0
+    TYPE="Intel i5"
+    FREQUENCY=1.8
+    RAM=4
+    DOWNLOAD=300
+    UPLOAD=50
+  END-PROCESSOR
+
+  PROCESSOR
+    ID=1
+    TYPE="AMD EPYC"
+    FREQUENCY=2.4
+    RAM=4
+    DOWNLOAD=220
+    UPLOAD=30
+  END-PROCESSOR
+  
+  PROCESSOR
+    ID=2
+    TYPE="Intel i9"
+    FREQUENCY=3.6
+    RAM=8
+    DOWNLOAD=380
+    UPLOAD=75
+  END-PROCESSOR
+END-PROCESSORS
+
+
+
+// Processor types and their quadratic coefficient 
+// values (C0, C1, C2) to compute energy.
+PROCESSOR-TYPES
+  PROCESSOR-TYPE
+    NAME="Intel i5"
+    C2=10
+    C1=-25
+    C0=25
+  END-PROCESSOR-TYPE
+
+  PROCESSOR-TYPE
+    NAME="Intel i7"
+    C2=9.7
+    C1=-25.5
+    C0=25.0
+  END-PROCESSOR-TYPE
+
+  PROCESSOR-TYPE
+    NAME="Intel i9"
+    C2=9.5
+    C1=-26.0
+    C0=25.0
+  END-PROCESSOR-TYPE
+
+  PROCESSOR-TYPE
+    NAME="AMD EPYC"
+    C2=10.0
+    C1=-25.0
+    C0=24.0
+  END-PROCESSOR-TYPE
+END-PROCESSOR-TYPES
+
+
+
+// Local communication costs (in terms of energy) for tasks 
+// executing on the same processor. A value of 0 means 
+// no communication between the two local tasks.
+// The ith section of a map (semicolon separated sections) relates
+// to the ith task (sender).
+// The jth element in a section refers to the jth task (receiver).
+// Element i,j is the energy required for task i 
+// to locally communicate with task j.
+LOCAL-COMMUNICATION
+  MAP=0,0.0001,0.0001,0.0001,0.0001;0,0,0.00005,0,0;0,0,0,0.00005,0;0,0,0,0,0.00005;0.0001,0,0,0,0
+END-LOCAL-COMMUNICATION
+
+// Remote communication costs (in terms of energy) for tasks 
+// executing on different processors. A value of 0 means 
+// no communication between the two remote tasks.
+// The ith section of a map (semicolon separated sections) relates
+// to the ith task (sender).
+// The jth element in a section refers to the jth task (receiver).
+// Element i,j is the energy required for task i 
+// to remotely communicate with task j.
+REMOTE-COMMUNICATION
+  MAP=0,0.1,0.1,0.1,0.1;0,0,0.05,0,0;0,0,0,0.05,0;0,0,0,0,0.05;0.1,0,0,0,0
+END-REMOTE-COMMUNICATION
+
+
+TOTAL-RAM=987
+Gbps=123
+
+
+

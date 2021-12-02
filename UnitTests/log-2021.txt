@@ -1,0 +1,82 @@
+<h3>PT1 - Test4.cff - file errors:</h3>
+<br>Invalid keyword TOTAL-RAM=987<br>
+<br>Invalid keyword Gbps=123<br>
+<h3>PT1 - Test4.taff - file errors:</h3>
+<br>Invalid keyword LOCATIONS<br>
+<br>More than expected number of allocations of 2 at ID=2<br>
+<br>More than expected number of allocations of 2 at ID=3<br>
+<br>More than expected number of allocations of 2 at ID=4<br>
+<br>More than expected number of allocations of 2 at ID=5<br>
+<br>More than expected number of allocations of 2 at ID=6<br>
+<br>More than expected number of allocations of 2 at ID=7<br>
+<br>Invalid value for keyword ID=RICE<br>
+<br>Invalid value for keyword ID=<br>
+<br>Task 5 is not allocated to to any processor for Allocation ID 2<br>
+<br>Task 5 is allocated to more than one processor for Allocation ID 3<br>
+<br>Task 5 is allocated to more than one processor for Allocation ID 3<br>
+<br>Invalid number of map sections 4 for Allocation ID 4<br>
+<br>Invalid number of map sections 2 for Allocation ID 5<br>
+<br>Task 3 is not allocated to to any processor for Allocation ID 5<br>
+<br>Task 5 is not allocated to to any processor for Allocation ID 5<br>
+<br>Invalid number of tasks 4 for Allocation ID 6<br>
+<br>Invalid number of tasks 6 for Allocation ID 7<br>
+<br>Invalid keyword END-LOCATIONS<br>
+<br>Invalid keyword ...<br>
+<br>Invalid keyword ?<br>
+<br>Invalid keyword /<br>
+<h3>PT1 - Test3.cff - file errors:</h3>
+<h3>PT1 - Test1.cff - file errors:</h3>
+<h3>PT1 - Test4.cff - file errors:</h3>
+<br>Invalid keyword TOTAL-RAM=987<br>
+<br>Invalid keyword Gbps=123<br>
+<h3>PT1 - Test4.taff - file errors:</h3>
+<br>Invalid keyword LOCATIONS<br>
+<br>More than expected number of allocations of 2 at ID=2<br>
+<br>More than expected number of allocations of 2 at ID=3<br>
+<br>More than expected number of allocations of 2 at ID=4<br>
+<br>More than expected number of allocations of 2 at ID=5<br>
+<br>More than expected number of allocations of 2 at ID=6<br>
+<br>More than expected number of allocations of 2 at ID=7<br>
+<br>Invalid value for keyword ID=RICE<br>
+<br>Invalid value for keyword ID=<br>
+<br>Task 5 is not allocated to to any processor for Allocation ID 2<br>
+<br>Task 5 is allocated to more than one processor for Allocation ID 3<br>
+<br>Task 5 is allocated to more than one processor for Allocation ID 3<br>
+<br>Invalid number of map sections 4 for Allocation ID 4<br>
+<br>Invalid number of map sections 2 for Allocation ID 5<br>
+<br>Task 3 is not allocated to to any processor for Allocation ID 5<br>
+<br>Task 5 is not allocated to to any processor for Allocation ID 5<br>
+<br>Invalid number of tasks 4 for Allocation ID 6<br>
+<br>Invalid number of tasks 6 for Allocation ID 7<br>
+<br>Invalid keyword END-LOCATIONS<br>
+<br>Invalid keyword ...<br>
+<br>Invalid keyword ?<br>
+<br>Invalid keyword /<br>
+<h3>PT1 - Test4.cff - file errors:</h3>
+<br>Invalid keyword TOTAL-RAM=987<br>
+<br>Invalid keyword Gbps=123<br>
+<h3>PT1 - Test4.taff - file errors:</h3>
+<br>Invalid keyword LOCATIONS<br>
+<br>More than expected number of allocations of 2 at ID=2<br>
+<br>More than expected number of allocations of 2 at ID=3<br>
+<br>More than expected number of allocations of 2 at ID=4<br>
+<br>More than expected number of allocations of 2 at ID=5<br>
+<br>More than expected number of allocations of 2 at ID=6<br>
+<br>More than expected number of allocations of 2 at ID=7<br>
+<br>Invalid value for keyword ID=RICE<br>
+<br>Invalid value for keyword ID=<br>
+<br>Task 5 is not allocated to to any processor for Allocation ID 2<br>
+<br>Task 5 is allocated to more than one processor for Allocation ID 3<br>
+<br>Task 5 is allocated to more than one processor for Allocation ID 3<br>
+<br>Invalid number of map sections 4 for Allocation ID 4<br>
+<br>Invalid number of map sections 2 for Allocation ID 5<br>
+<br>Task 3 is not allocated to to any processor for Allocation ID 5<br>
+<br>Task 5 is not allocated to to any processor for Allocation ID 5<br>
+<br>Invalid number of tasks 4 for Allocation ID 6<br>
+<br>Invalid number of tasks 6 for Allocation ID 7<br>
+<br>Invalid keyword END-LOCATIONS<br>
+<br>Invalid keyword ...<br>
+<br>Invalid keyword ?<br>
+<br>Invalid keyword /<br>
+<h3>PT1 - Test3.cff - file errors:</h3>
+<h3>PT1 - Test2.cff - file errors:</h3>

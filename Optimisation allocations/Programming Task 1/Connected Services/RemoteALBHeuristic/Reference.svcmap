@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e61857fd-7496-4071-82dc-dce951eb26e2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="cf7a5fe0-c2f9-4f7f-b4e8-fbebe5e19aae" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="e1b93dd9-8d0e-4baf-9e4d-396e66b9f3d7" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="131292d1-a077-4707-a6d5-ba54b029f810" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="bbb4b944-4a7b-4d98-8ea3-3f480f3eff53" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc?disco" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="ca5da147-d7bd-4490-a82d-5472babeab06" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc?wsdl" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="532ce25c-e12b-465c-a537-82dc171a4350" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Heuristic/Service.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

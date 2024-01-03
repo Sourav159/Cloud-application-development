@@ -1,0 +1,7 @@
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll.config
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.pdb
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csprojAssemblyReference.cache
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csproj.CoreCompileInputs.cache
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.dll
+D:\T1, 2021\SIT323 - Cloud app development\PT-2\SIT323 PT1 - Release to Students for PT2\SIT323 PT1 - Release to Students for PT2\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.pdb

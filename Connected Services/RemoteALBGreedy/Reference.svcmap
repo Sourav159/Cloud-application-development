@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="29872d5b-e3db-405e-be24-392759659a97" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="29fb3fe5-e0f0-4c41-8ef2-41163b692049" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="5f422459-f6d1-430d-9c7e-c49b69e9139f" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc?wsdl" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="572b0b69-3c44-4996-9709-a078769569f2" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc?disco" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="45562eb5-682c-4826-a070-164e9922327a" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="9c65df98-3a34-4a1f-a336-3a717d304572" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc?xsd=xsd3" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="a78a50eb-7675-4610-990d-7d1268c9a250" SourceId="1" SourceUrl="http://pt2-alb-492739985.us-east-1.elb.amazonaws.com/Greedy/Service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

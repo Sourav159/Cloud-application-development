@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://54.197.38.163/Greedy/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ConfigData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Duration" type="xs:double" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Energies" nillable="true" type="q1:ArrayOfdouble" />
+      <xs:element minOccurs="0" name="FilePath" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LocalCommunication" nillable="true" type="q2:ArrayOfdouble" />
+      <xs:element minOccurs="0" name="NumberOfProcessors" type="xs:int" />
+      <xs:element minOccurs="0" name="NumberOfTasks" type="xs:int" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ProcessorDownloadSpeed" nillable="true" type="q3:ArrayOfint" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ProcessorRAM" nillable="true" type="q4:ArrayOfint" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ProcessorUploadSpeed" nillable="true" type="q5:ArrayOfint" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="RemoteCommunication" nillable="true" type="q6:ArrayOfdouble" />
+      <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Runtimes" nillable="true" type="q7:ArrayOfdouble" />
+      <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TaskDownloadSpeed" nillable="true" type="q8:ArrayOfint" />
+      <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TaskRAM" nillable="true" type="q9:ArrayOfint" />
+      <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TaskUploadSpeed" nillable="true" type="q10:ArrayOfint" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConfigData" nillable="true" type="tns:ConfigData" />
+  <xs:complexType name="AllocationsData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Count" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Energy" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AllocationsData" nillable="true" type="tns:AllocationsData" />
+</xs:schema>

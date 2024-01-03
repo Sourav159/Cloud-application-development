@@ -1,4 +1,4 @@
-The Task Allocation Service is a set of WCF (Windows Communication Foundation) services that provide task allocations based on either a Greedy or a Heuristic algorithm. The service allows clients to request task allocations for a given configuration and deadline. This README provides an overview of the project structure and usage.
+The Task Allocation Service is a set of WCF (Windows Communication Foundation) services that provide task allocations based on either a Greedy or a Heuristic algorithm connected to an Amazon Web Services (AWS) architecture. The service allows clients to request task allocations for a given configuration and deadline. This README provides an overview of the project structure and usage.
 
 Introduction:
 The service is implemented using WCF and includes two algorithms for task allocation: Greedy Algorithm and Heuristic Algorithm. Both algorithms aim to allocate tasks to processors while considering various constraints such as runtime, energy, and communication speed.

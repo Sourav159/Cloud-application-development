@@ -10,6 +10,8 @@ The Greedy Algorithm uses a greedy approach to allocate tasks to processors. It 
 ## Heuristic Algorithm
 The Heuristic Algorithm provides multiple allocations using a random heuristic approach. It randomly selects processors and attempts to allocate tasks while considering constraints. The algorithm iterates through multiple attempts and returns the allocations that meet the criteria.
 
+### Watch a screencast of the application demonstration [here](https://youtu.be/aQVy1hK76po).
+
 ## Usage
 ### ConfigData Class:
 ConfigData class contains the necessary configuration data for task allocation, such as the number of processors, tasks, task runtimes, energies, and various constraints.
